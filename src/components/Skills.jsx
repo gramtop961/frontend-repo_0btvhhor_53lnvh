@@ -1,5 +1,5 @@
-import React, { useEffect, useMemo, useRef } from 'react'
-import { motion, useInView, useMotionValue, useSpring, useTransform } from 'framer-motion'
+import React, { useRef } from 'react'
+import { motion, useInView } from 'framer-motion'
 import {
   Code,
   Server,
@@ -7,7 +7,6 @@ import {
   Cloud,
   Activity,
   ListChecks,
-  ReactLogo,
 } from 'lucide-react'
 
 const categories = [
